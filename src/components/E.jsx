@@ -1,6 +1,6 @@
 import { useAnimate } from "../hooks";
 
-const B = () => {
+const E = () => {
   const { detectedRef, isObserve } = useAnimate();
 
   return (
@@ -14,7 +14,7 @@ const B = () => {
       <img
         className={`w-96 h-96 ${
           isObserve && "animate__animated animate__zoomIn animate__verySlow"
-        } ${!isObserve && "invisible"} `}
+        } ${!isObserve && "invisible"}`}
         src="./images/cat.jpg"
         alt="cat"
       />
@@ -22,4 +22,4 @@ const B = () => {
   );
 };
 
-export default B;
+export default E;
